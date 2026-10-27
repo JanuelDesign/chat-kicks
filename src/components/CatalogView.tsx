@@ -69,7 +69,7 @@ export const CatalogView: React.FC<CatalogViewProps> = ({
             <Sparkles className="w-3.5 h-3.5" /> Catálogo Oficial Kicks Venezuela
           </div>
           <h2 className="text-2xl sm:text-3xl font-heading font-black text-stone-100">
-            Marcas 100% Originales Distribuidas
+            Marcas Oficiales Distribuidas
           </h2>
           <p className="text-xs sm:text-sm text-stone-400 mt-1 max-w-2xl">
             Explore nuestra colección oficial de Original Penguin, Hey Dude, Avia y Carven para caballero y dama. Envíos a toda Venezuela.
@@ -172,7 +172,7 @@ export const CatalogView: React.FC<CatalogViewProps> = ({
               className="accent-[#FEE000] rounded"
             />
             <span className="text-xs text-stone-200 font-medium select-none">
-              Solo Súper Precios / Black Friday
+              Solo Productos en Oferta
             </span>
           </label>
         </div>

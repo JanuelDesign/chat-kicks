@@ -71,7 +71,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({
           </span>
           {hasOffer && (
             <span className="text-[10px] font-extrabold bg-[#FEE000] text-[#1A1A1A] px-2.5 py-0.5 rounded-full flex items-center gap-1 shadow-md">
-              <Tag className="w-2.5 h-2.5" /> Súper Precio
+              <Tag className="w-2.5 h-2.5" /> Oferta
             </span>
           )}
         </div>

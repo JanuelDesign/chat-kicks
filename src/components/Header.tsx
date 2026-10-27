@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sparkles, MessageCircle, Ruler, Truck, ShieldCheck, RefreshCcw } from 'lucide-react';
+import { MessageCircle, Ruler, Truck, RefreshCcw } from 'lucide-react';
 
 interface HeaderProps {
   activeTab: 'chat' | 'catalog' | 'policies';
@@ -25,12 +25,11 @@ export const Header: React.FC<HeaderProps> = ({
 }) => {
   return (
     <header className="bg-[#1A1A1A] border-b border-[#2C2C2C] text-stone-100 sticky top-0 z-30 shadow-lg">
-      {/* Top Banner: Black Friday 01 al 30 de noviembre */}
-      <div className="bg-[#FEE000] text-[#1A1A1A] px-4 py-2 text-xs sm:text-sm text-center font-heading font-extrabold flex items-center justify-center gap-2 shadow-inner">
-        <Sparkles className="w-4 h-4 fill-current animate-pulse shrink-0" />
-        <span className="tracking-tight">
-          🔥 Black Friday: del 01 al 30 de noviembre • Súper Precios en productos seleccionados (solo divisas en efectivo)
-        </span>
+      {/* Top Yellow Announcement Banner */}
+      <div className="bg-[#FEE000] text-[#1A1A1A] px-4 py-1.5 text-center font-heading font-black text-xs sm:text-sm tracking-wider uppercase flex items-center justify-center gap-2 select-none shadow-sm">
+        <span className="inline-block w-2 h-2 rounded-full bg-[#1A1A1A]"></span>
+        <span>BLACK KICKS DURA TODO EL MES DE NOVIEMBRE</span>
+        <span className="inline-block w-2 h-2 rounded-full bg-[#1A1A1A]"></span>
       </div>
 
       {/* Main Bar */}
@@ -57,9 +56,6 @@ export const Header: React.FC<HeaderProps> = ({
               <div className="flex items-center gap-2">
                 <span className="font-heading font-black tracking-wider text-stone-100 text-base sm:text-lg">
                   KICKS <span className="text-[#FEE000]">ONLINE</span>
-                </span>
-                <span className="inline-flex items-center gap-1 text-[10px] font-heading font-extrabold uppercase bg-[#FEE000] text-[#1A1A1A] px-2.5 py-0.5 rounded-full shadow-xs">
-                  <ShieldCheck className="w-3.5 h-3.5" /> 100% Original
                 </span>
               </div>
               <div className="flex items-center gap-2 text-[11px] text-stone-400">

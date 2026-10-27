@@ -68,8 +68,7 @@ export function generateAdvisorResponse(
   if (!userText || userText === 'INIT' || lower === 'init' || lower.includes('hola') || lower.includes('buenas')) {
     let campaignMention = '';
     if (campanaActiva && campanaActiva.toLowerCase().includes('black friday')) {
-      campaignMention =
-        ' Le informo que nos encontramos en temporada especial con Súper Precios en productos seleccionados (aplican en divisas en efectivo).';
+      campaignMention = ' Le informo que nos encontramos en temporada especial de Black Friday.';
     }
     return {
       reply: `Bienvenido a Kicks Online Venezuela. Soy Marta, su asesora de compras, y con gusto le ayudo a encontrar lo que busca.${campaignMention}\n\n¿La compra es para usted o se trata de un obsequio?`,
@@ -111,7 +110,7 @@ export function generateAdvisorResponse(
 
   if (isAuthenticityDoubt) {
     return {
-      reply: `Con total certeza: en Kicks Online Venezuela todos nuestros productos son 100% originales, procedentes de distribuidores autorizados de Original Penguin, Avia, Hey Dude y Carven.\n\n¿Hay alguna de nuestras marcas oficiales que llame su atención en particular?`,
+      reply: `Con total certeza: en Kicks Online Venezuela todos nuestros productos son originales, procedentes directamente de distribuidores autorizados de Original Penguin, Avia, Hey Dude y Carven.\n\n¿Hay alguna de nuestras marcas oficiales que llame su atención en particular?`,
       productsBlock: '',
       events: registeredEvents,
     };
@@ -152,7 +151,7 @@ export function generateAdvisorResponse(
     lower.includes('pago móvil')
   ) {
     return {
-      reply: `Aceptamos Zelle, PayPal, divisas en efectivo y bolívares (Pago Móvil / transferencia) a la tasa oficial del BCV. Para promociones especiales, el precio aplica en divisas en efectivo.\n\n¿Qué tipo de prenda o calzado desea adquirir?`,
+      reply: `Aceptamos Zelle, PayPal, divisas en efectivo y bolívares (Pago Móvil / transferencia) a la tasa oficial del BCV.\n\n¿Qué tipo de prenda o calzado desea adquirir?`,
       productsBlock: '',
       events: registeredEvents,
     };

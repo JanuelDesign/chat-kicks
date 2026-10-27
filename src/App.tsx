@@ -422,10 +422,7 @@ export default function App() {
                 </h3>
                 <ul className="list-disc pl-5 space-y-2 text-stone-300">
                   <li>
-                    <strong className="text-stone-100">Catálogo General:</strong> Aceptamos divisas en efectivo, transferencias <strong>Zelle</strong>, <strong>PayPal</strong> y <strong>Bolívares (Pago Móvil / transferencia) a la tasa oficial del BCV</strong>.
-                  </li>
-                  <li>
-                    <strong className="text-[#FEE000]">Precios Promocionales y Súper Precios de Black Friday:</strong> Aplican exclusivamente en <strong>divisas en efectivo</strong>.
+                    <strong className="text-stone-100">Métodos Disponibles:</strong> Aceptamos divisas en efectivo, transferencias <strong>Zelle</strong>, <strong>PayPal</strong> y <strong>Bolívares (Pago Móvil / transferencia) a la tasa oficial del BCV</strong>.
                   </li>
                 </ul>
               </div>
@@ -433,7 +430,7 @@ export default function App() {
               {/* Guarantees and actions */}
               <div className="bg-[#1A1A1A] border border-[#2C2C2C] rounded-2xl p-5 shadow-sm space-y-3">
                 <h3 className="font-heading font-bold text-base text-stone-100 flex items-center gap-2">
-                  <ShieldCheck className="w-5 h-5 text-emerald-400" /> Garantía de Originalidad 100%
+                  <ShieldCheck className="w-5 h-5 text-emerald-400" /> Garantía de Originalidad
                 </h3>
                 <p className="leading-relaxed">
                   Todos los productos son adquiridos directamente de los distribuidores autorizados de{' '}

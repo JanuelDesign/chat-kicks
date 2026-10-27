@@ -14,8 +14,7 @@ interface SimulationBarProps {
 export const PRESET_CAMPAIGNS = [
   {
     label: 'Black Friday (01 al 30 de noviembre)',
-    value:
-      'Black Friday: del 01 al 30 de noviembre. Mensaje principal: Súper Precios en productos seleccionados. Condición: el precio promocional aplica solo en divisas en efectivo.',
+    value: 'Black Friday: del 01 al 30 de noviembre.',
   },
   {
     label: 'Nueva Colección Hey Dude & Penguin',

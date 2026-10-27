@@ -94,10 +94,7 @@ export const StorePoliciesModal: React.FC<StorePoliciesModalProps> = ({ isOpen, 
             </div>
             <ul className="list-disc pl-5 text-stone-300 space-y-1.5">
               <li>
-                <strong className="text-stone-100">Catálogo General:</strong> Aceptamos <strong>Zelle</strong>, <strong>PayPal</strong>, <strong>Divisas en efectivo</strong> y <strong>Bolívares (Pago Móvil / transferencia) a la tasa oficial del BCV</strong>.
-              </li>
-              <li>
-                <strong className="text-amber-300">Promociones Especiales / Súper Precios:</strong> El precio promocional aplica exclusivamente en <strong>divisas en efectivo</strong>.
+                <strong className="text-stone-100">Métodos Aceptados:</strong> Aceptamos <strong>Zelle</strong>, <strong>PayPal</strong>, <strong>Divisas en efectivo</strong> y <strong>Bolívares (Pago Móvil / transferencia) a la tasa oficial del BCV</strong>.
               </li>
               <li>
                 <strong className="text-stone-100">Seguridad:</strong> Nunca solicitamos datos bancarios confidenciales ni números de tarjeta en el chat.
