@@ -1,0 +1,6 @@
+{
+  "name": "Marta | Asesora Kicks Online Venezuela",
+  "description": "Asesora de compras virtual de Kicks Online Venezuela (kicksvenezuela.com). Calzado y ropa 100% original de Original Penguin, Avia, Hey Dude y Carven.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
